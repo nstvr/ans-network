@@ -1,0 +1,6 @@
+[debian]
+deb1 ansible_host=192.168.122.193
+deb2 ansible_host=192.168.122.24
+
+[fedora]
+fedora1 ansible_host=192.168.122.114

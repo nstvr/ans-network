@@ -1,0 +1,7 @@
+---
+- hosts: debian
+  tasks:
+    - name: disk
+      script: ~/ANS-CASE-STUDY/scripts/disk.sh
+      register: output
+    - debug: var=output.stdout_lines
